@@ -24,6 +24,7 @@ replay_pid*             # JVM replay logs
 # IntelliJ IDEA
 .idea/                  # Project settings folder
 *.iml                   # Module files
+out/
 
 # VS Code
 .vscode/                # Workspace settings folder
