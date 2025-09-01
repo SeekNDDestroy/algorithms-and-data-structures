@@ -19,5 +19,6 @@ public class Main {
         array.display();
 
         array.findElement(44);
+        array.findElement(32);
     }
 }

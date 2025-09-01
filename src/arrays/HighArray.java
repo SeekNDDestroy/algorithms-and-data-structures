@@ -12,9 +12,11 @@ public class HighArray {
     public int findElement(int value){
         for(int i = 0; i < nElement; i++){
             if(array[i] == value){
+                System.out.println("element found at index " + i);
                 return i;
             }
         }
+        System.out.println("element not found");
         return -1;
     }
 
