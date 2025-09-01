@@ -1,4 +1,4 @@
-package arrays;
+import arrays.HighArrays.HighArray;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,8 +17,5 @@ public class Main {
         array.insert(33);
 
         array.display();
-
-        array.findElement(44);
-        array.findElement(32);
     }
 }

@@ -1,4 +1,4 @@
-package arrays;
+package arrays.HighArrays;
 
 public class HighArray {
     private int[] array;
@@ -43,8 +43,5 @@ public class HighArray {
         }
         System.out.println();
     }
-
-
-
 
 }
