@@ -44,4 +44,22 @@ public class HighArray {
         System.out.println();
     }
 
+    public int getMax(){
+
+        if(nElement == 0){
+            return -1;
+        }
+
+        int max = array[0];
+
+        for(int i = 0; i < nElement; i++){
+            if(max < array[i]){
+                max = array[i];
+            }
+        }
+        return max;
+
+    }
+
+
 }
