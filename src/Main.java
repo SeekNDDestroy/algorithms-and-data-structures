@@ -1,21 +1,25 @@
-import arrays.HighArrays.HighArray;
+import arrays.OrderedArray.OrderedArrayBinarySearch;
+import sorts.BubbleSort;
 
 public class Main {
     public static void main(String[] args) {
-        int maxSize = 100;
-        HighArray array = new HighArray(maxSize);
 
-        array.insert(77);
-        array.insert(99);
-        array.insert(44);
-        array.insert(55);
-        array.insert(22);
-        array.insert(88);
-        array.insert(11);
-        array.insert(00);
-        array.insert(66);
-        array.insert(33);
+        BubbleSort bubbleSort = new BubbleSort(10);
 
-        array.display();
+        bubbleSort.insert(10);
+        bubbleSort.insert(12);
+        bubbleSort.insert(0);
+        bubbleSort.insert(-12);
+        bubbleSort.insert(4);
+
+        bubbleSort.display();
+
+        bubbleSort.bubbleSort();
+
+        bubbleSort.display();
+
     }
+
+
+
 }
